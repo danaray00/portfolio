@@ -39,7 +39,7 @@ a{text-decoration: none;
 
 /*header 시작*/
 .header{
-    position: relativel;
+    position:relative;
     top:0;
     width: 100%;
     background-color: var(--color-primary-variant);
@@ -47,8 +47,12 @@ a{text-decoration: none;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     z-index: 9999;
+}
+.header_nav{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header_logo{
@@ -56,18 +60,17 @@ a{text-decoration: none;
     align-items: center;
     gap:8px;
     width: 20%;
-
 }
 
 .header_menu{
     display: flex;
     gap:4px;
-    
 }
     .header_menu_item{
         display: block;
         padding: 8px 16px;
         color: var(--color-primary);
+        font-size: 1.2rem;
     }
     .header_menu_item:hover{
         color:var(--color-accent-variant_02);
