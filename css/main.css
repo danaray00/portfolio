@@ -1,3 +1,15 @@
-.header_menu_item{
-    
+#home{
+    background-color: var(--color-primary-variant);
+    color: var(--color-primary);
+    padding: 5rem 1rem;
+    padding-top: 7rem;
+    text-align: center;
 }
+
+    .home_avatar{
+        width:250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 100%;
+        border: 3px var();
+    }
